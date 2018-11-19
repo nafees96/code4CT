@@ -1,0 +1,38 @@
+nav {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    ul {
+      text-align: center;
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 20px;
+      li {
+        display: inline;
+        font-family: "poppins", sans-serif;
+        font-size: 20px;
+        
+        a {
+          color: #666666;
+          text-decoration: none;
+          padding: 7px;
+          font-family: poppins;
+          li a:active{
+              color: red;
+          }
+          nav input[type=text] {
+            float: right;
+            color: red;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            border: none;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
