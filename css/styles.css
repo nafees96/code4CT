@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Error: Invalid CSS after "...and type is out": expected "{", was ""
         on line 132 of sass/styles.scss
@@ -42,3 +43,55 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Invalid CSS after \"...and type is out\": expected \"{\", was \"\"\A         on line 132 of sass/styles.scss\A \A 127:  text-align: center;\A 128:  justify-content: center;\A 129: }\A 130: \A 131: \A 132: when you come in retype the top dont past cope it to a other sheet and type is out"; }
+=======
+nav {
+  overflow: hidden;
+  background-color: #f9f9f9;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  nav ul {
+    text-align: center;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px; }
+    nav ul li {
+      display: inline;
+      font-family: "poppins", sans-serif;
+      font-size: 20px; }
+      nav ul li a {
+        color: #666666;
+        text-decoration: none;
+        padding: 7px;
+        font-family: poppins; }
+        nav ul li a li a:active {
+          color: red; }
+        nav ul li a nav input[type=text] {
+          float: right;
+          color: red;
+          padding: 6px;
+          margin-top: 8px;
+          margin-right: 16px;
+          border: none;
+          font-size: 17px; }
+
+          .container_1 {
+            width: 361px;
+            height: 20.5px;
+            font-family: Poppins;
+            font-size: 7.3px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.79;
+            letter-spacing: normal;
+            text-align: center;
+            color: #00000000;
+          }
+          body {
+            background-image: url("../img/pexels-photo-872958.jpeg");
+        }
+
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 16d48af219ce75265ecdb07ff525acc163809c4d
