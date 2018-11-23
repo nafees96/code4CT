@@ -143,6 +143,12 @@ body, html {
 
 /* Grid-1 */
 
+.container_2 {
+  margin-top: 100px;
+  margin-left: 700px;
+
+}
+
 
 #grid {
     display: grid;
@@ -169,10 +175,6 @@ container1-text {
   background-color: #666666;
 }
 
-.position_1 {
-  margin-top: 100px;
-  margin-left: 700px;
-}
 
 #messageBox {
   display: grid;
@@ -231,18 +233,14 @@ container1-text {
   color: #666666;
 }
 
-
-.position_2 {
-  margin-right: 648px;
-  margin-top: -468px;
-}
-
 .container_3 { 
   padding-left: 65px;
   padding-right: 65px;
   margin-right: -104px;
   margin-top: 13%;
   margin-left: 258px;
+  margin-right: 648px;
+  margin-top: -468px;
 }
 
 .gridSizzing {
