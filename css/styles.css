@@ -136,4 +136,142 @@ body, html {
   justify-content: center; 
 }
 
+#mustWork {
+  width: 130px;
+    height: 43px;
+}
+
+/* Grid-1 */
+
+
+#grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    width: 0%;
+}
+
+div {
+    display: block;
+}
+
+
+container1-text {
+    border-top: 13px solid #3a3a3a;
+    color: #ccc;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.textAlign {
+  background-color: #666666;
+}
+
+.position_1 {
+  margin-top: 100px;
+  margin-left: 700px;
+}
+
+#messageBox {
+  display: grid;
+  width: 47%;
+  margin-top: -460px;
+}
+
+
+.size_2 {
+    width: 73.5px;
+    height: 9.5px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+}
+
+.messageTitle {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.63;
+    color: #333333;
+}
+
+.caption {
+    width: 283.5px;
+    height: 98px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+}
+
+.button-3 {
+  height: 25px;
+    width: 83.5px;
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666;
+}
+
+
+.position_2 {
+  margin-right: 648px;
+  margin-top: -468px;
+}
+
+.container_3 { 
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-right: -104px;
+  margin-top: 13%;
+  margin-left: 258px;
+}
+
+.gridSizzing {
+  margin-left: -20px;
+}
+
+.boxSizzing {
+  width: 174px;
+  height: 137px;
+}
+
+/* end of grid-1 */
+
+
+#grid_2 { 
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.alignText{
+  text-align: center;
+}
+
+.container_4{
+  width: 100%;
+  margin-left: 223px;
+  margin-top: 65px;
+}
+
+
 /*# sourceMappingURL=styles.css.map */
