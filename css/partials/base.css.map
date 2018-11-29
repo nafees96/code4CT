@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK;EACD,MAAM,EAAC,CAAC;;AAIR,YAAC;EACG,SAAS,EAAE,IAAI",
+"sources": ["../../sass/partials/base.scss"],
+"names": [],
+"file": "base.css"
+}

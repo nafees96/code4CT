@@ -1,0 +1,17 @@
+.section_1 {
+  display: grid;
+  grid-template-columns: auto auto; }
+
+.section_2 {
+  display: inline-flex;
+  grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2; }
+
+.section_4 {
+  display: inline-flex;
+  grid-template-columns: auto auto auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2; }
+
+/*# sourceMappingURL=layout.css.map */
