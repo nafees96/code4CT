@@ -167,30 +167,26 @@ body, html {
 
 .container3 {
   background-color: black;
-  height: 40%;
+  height: 14%;
   display: grid;
   grid-gap: 2px;
-  grid-template-columns: auto auto auto;
-  margin-top: 50px; }
+  grid-template-columns: auto auto auto auto;
+  margin-top: 50px;
+  padding: 100px 100px; }
   .container3 img {
-    width: 50px;
-    margin-left: 174px;
-    margin-top: 7%; }
+    width: 50px; }
   .container3 .text1 {
     text-align: center;
     justify-content: center; }
   .container3 .size_2 {
-    color: white;
-    margin-left: 160px; }
+    color: white; }
   .container3 .messageTitle {
     color: white;
     text-align: center;
-    margin-left: 101px;
-    margin-right: 658px;
     font-size: 10px;
     line-height: 19px; }
   .container3 .boxAlign {
-    margin-right: -442px; }
+    text-align: center; }
 
 nav {
   overflow: hidden;
