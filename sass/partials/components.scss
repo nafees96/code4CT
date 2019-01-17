@@ -278,7 +278,7 @@
       opacity:30%;
     }
     .border2{
-      width:30%;
+      width:1%;
       color: $main-color;
       border-top: 3px solid;
       opacity:30%;
@@ -459,7 +459,18 @@ footer{
   .grid3-image img{
     width: 78%;
     padding: 5px;
-    height: 94%;
+    height: 98%;
+    margin-bottom: 0%;
+  }
+
+  .grid2{
+    h5{
+      border-bottom: 1px solid grey;
+      width: 100%;
+      margin-top: -4%;
+      
+      padding-bottom: 14%;
+    }
   }
    
    

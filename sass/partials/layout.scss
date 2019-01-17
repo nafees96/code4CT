@@ -34,13 +34,40 @@
 
     .container5 {
         display: grid;
-        grid-template-columns: auto auto;
-        height: 50%;
-        background-color: white;
-        margin: 80px;
-        margin-left: 879px;
-        margin-top: -884px;
-        margin-bottom: 33%;
-        margin-right: -1%;
+    grid-template-columns: auto auto;
+    height: 50%;
+    background-color: white;
+    margin: 80px;
+    margin-left: 879px;
+    margin-top: -899px;
+    margin-bottom: 33%;
+    margin-right: 0%;
        
         }
+        
+        .container6{
+            margin-top: -30%;
+        }
+        .border-line{
+            display: flex;
+        }
+
+
+
+
+        #grid2 { 
+            display: grid;
+        
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-right: 319px;
+            grid-gap: 40px;
+            margin-right: 14px;
+            margin-left: 186px;
+            width: 86%;
+    white-space: nowrap;
+    }  
+
+    .grid-imageSize{
+        height :300px;
+        width: 300px;
+    }
