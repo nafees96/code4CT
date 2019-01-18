@@ -49,11 +49,10 @@
   grid-gap: 40px;
   margin-right: 14px;
   margin-left: 186px;
-  width: 86%;
-  white-space: nowrap; }
+  width: 77%; }
 
 .grid-imageSize {
-  height: 300px;
-  width: 300px; }
+  height: 270px;
+  width: 250px; }
 
 /*# sourceMappingURL=layout.css.map */
