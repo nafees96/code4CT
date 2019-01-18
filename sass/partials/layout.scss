@@ -71,3 +71,60 @@
         height :270px;
         width: 250px;
     }
+
+    .fa, .fab, .fal, .far, .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        letter-spacing: 10px;
+        color: #888888;
+    }
+
+    .SUBSCRIBE-TO-US {
+        width: 170px;
+        height: 15px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: center;
+        color: #555555;
+        
+        h4{
+            margin-right: -782%;
+        }
+        p{
+            width: 888%;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666;
+        }
+        
+      }
+      .fa-paper-plane{
+        width: 20px;
+        height: 21px;
+        font-family: FontAwesome;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ee534f;
+        margin-right: 12px;
+      }
