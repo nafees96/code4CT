@@ -115,6 +115,18 @@ body {
   color: #ee534f;
   margin-right: 12px; }
 
+.mail-enter {
+  padding-right: 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #f9f9f9; }
+
+.button1 {
+  background-color: #ee534f;
+  color: #e7e7e7;
+  border: 2px solid #ee534f;
+  height: 30px;
+  border-radius: 5px; }
+
 nav {
   overflow: hidden;
   background-color: #f9f9f9;
@@ -495,5 +507,24 @@ footer {
   color: #555555; }
 .grid2 p {
   color: #666666; }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
+.container10 .slider {
+  background: black;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 221px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 1519px;
+  margin-top: 15%; }
+  .container10 .slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14); }
 
 /*# sourceMappingURL=styles.css.map */
