@@ -635,4 +635,82 @@ footer{
 
 
   /////////////////////////// contact page/////////////////////////////////
+  .section21{
+    p{
+        font-size: 13px;
+      }
+  }
   
+  
+  .section21{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .section21{
+    padding:9%;
+    background-color: $primary-background;
+   .headerText-1{
+       font-size:20px;
+       text-align: center;
+       float: right;
+       padding-left:291px;
+       color:#555555;
+   }
+   img{
+     width: 10px;
+   }
+   span{
+     color: $main-color;
+     
+   }
+  }
+
+  .section22 {
+    display: inline-flex;
+    grid-template-columns: auto auto;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+  }
+
+  .section22{
+    padding:10%;
+    background-color: white;
+    img{
+      width: 15px;
+      border: $primary-background solid 1px;
+      border-radius: 4px;  
+      padding: 3px ;
+      display: inline-flex;
+     }
+    
+    .border{
+      width:7%;
+      color: #e38f84;
+      border-top: 3px solid;
+      opacity:30%;
+    }
+    .border2{
+      width:1%;
+      color: $main-color;
+      border-top: 3px solid;
+      opacity:30%;
+    }
+    form{
+      margin-top: 10px;
+      .input-1{
+        border-radius:4px;
+        border: 1px $primary-background solid;
+        padding: 12px 30px;
+      
+       }
+      }
+      .contact-box{
+        display: flex;
+        align-items:center;
+        p{
+          padding: 1px;
+        }
+      }
+    }
+    
