@@ -1,8 +1,4 @@
 
-
-
-
-
 .container4 {
   display: grid;
   grid-template-columns: auto auto;
@@ -633,8 +629,135 @@ footer{
     }
   }
 
+  
+.section_1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.section_2 {
+  display: inline-flex;
+  grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2; 
+}
+.section_4 {
+  display: inline-flex;
+  grid-template-columns: auto auto auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2; 
+}
 
-  /////////////////////////// contact page/////////////////////////////////
+.container4 {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 50%;
+  background-color: white;
+  margin: 80px;
+  margin-left: 180px;
+  margin-top: -18%;
+  margin-bottom: 34%;
+  margin-right: 41%;
+  }
+
+  .container5 {
+      display: grid;
+  grid-template-columns: auto auto;
+  height: 50%;
+  background-color: white;
+  margin: 80px;
+  margin-left: 879px;
+  margin-top: -899px;
+  margin-bottom: 33%;
+  margin-right: 0%;
+     
+      }
+      
+      .container6{
+          margin-top: -30%;
+      }
+      .border-line{
+          display: flex;
+      }
+
+
+
+
+      #grid2 { 
+          display: grid;
+      
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          margin-right: 319px;
+          grid-gap: 40px;
+          margin-right: 14px;
+          margin-left: 186px;
+          width: 77%;
+
+  }  
+
+  .grid-imageSize{
+      height :270px;
+      width: 250px;
+  }
+
+  .fa, .fab, .fal, .far, .fas {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      letter-spacing: 10px;
+      color: #888888;
+  }
+
+  .SUBSCRIBE-TO-US {
+      width: 170px;
+      height: 15px;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: center;
+      color: #555555;
+      
+      h4{
+          margin-right: -782%;
+      }
+      p{
+          width: 888%;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.86;
+letter-spacing: normal;
+text-align: center;
+color: #666666;
+      }
+      
+    }
+    .fa-paper-plane{
+      width: 20px;
+      height: 21px;
+      font-family: FontAwesome;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ee534f;
+      margin-right: 12px;
+    }
+  
+
+  ///////////////////////////contact page/////////////////////////////////
   .section21{
     p{
         font-size: 13px;
@@ -678,10 +801,11 @@ footer{
     background-color: white;
     img{
       width: 15px;
-      border: $primary-background solid 1px;
       border-radius: 4px;  
       padding: 3px ;
       display: inline-flex;
+      margin-top: 12px;
+      border: $primary-background solid 1px;
      }
     
     .border{
@@ -709,8 +833,39 @@ footer{
         display: flex;
         align-items:center;
         p{
-          padding: 1px;
+          padding: 0px;
+          margin-bottom: 0px;
         }
       }
     }
     
+    
+    .section_3{
+      .mapSizing {
+        text-align: right;
+        height: 400px;
+        width: 1300px;
+        filter: grayscale(100%);
+        margin-top: -6%;
+        margin-bottom: 15%;
+        margin-left: 212.688px;
+    }
+    .googleMap {
+        overflow: hidden;
+        background: none !important;
+        height: 500px;
+        width: 1080px;
+    }
+    }
+  
+
+    .section_4 {
+      display: inline-flex;
+      grid-template-columns: auto auto auto auto;
+      grid-column-start: 1;
+      grid-column-end: 2; 
+    }
+
+   .location1{
+    margin-top: -76px;
+   }

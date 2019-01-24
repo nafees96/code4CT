@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$secondary-background".
-        on line 118 of sass/partials/components.scss
+        on line 114 of sass/partials/components.scss
 
-113:     }
-114:   
-115:   // //////////////////////Nav styling starts///////////////////////
-116:   nav {
-117:       overflow: hidden;
-118:       background-color: $secondary-background;
-119:       position: fixed;
-120:       top: 0;
-121:       left: 0;
-122:       width: 100%;
-123:       z-index: 99999;
+109:     }
+110:   
+111:   // //////////////////////Nav styling starts///////////////////////
+112:   nav {
+113:       overflow: hidden;
+114:       background-color: $secondary-background;
+115:       position: fixed;
+116:       top: 0;
+117:       left: 0;
+118:       width: 100%;
+119:       z-index: 99999;
 
 Backtrace:
-sass/partials/components.scss:118
+sass/partials/components.scss:114
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary-background\".\A         on line 118 of sass/partials/components.scss\A \A 113:     }\A 114:   \A 115:   // //////////////////////Nav styling starts///////////////////////\A 116:   nav {\A 117:       overflow: hidden;\A 118:       background-color: $secondary-background;\A 119:       position: fixed;\A 120:       top: 0;\A 121:       left: 0;\A 122:       width: 100%;\A 123:       z-index: 99999;"; }
+  content: "Error: Undefined variable: \"$secondary-background\".\A         on line 114 of sass/partials/components.scss\A \A 109:     }\A 110:   \A 111:   // //////////////////////Nav styling starts///////////////////////\A 112:   nav {\A 113:       overflow: hidden;\A 114:       background-color: $secondary-background;\A 115:       position: fixed;\A 116:       top: 0;\A 117:       left: 0;\A 118:       width: 100%;\A 119:       z-index: 99999;"; }
