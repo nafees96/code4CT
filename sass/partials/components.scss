@@ -872,4 +872,34 @@ color: #666666;
 
   ///////////////////////////////////////////////////  Portfolio page////////////////////////////////////////////////
 
-  
+  .portfolioHeader{
+    margin-left: 344px;
+    text-align: center;
+    margin-right: 371px;
+    color: #888888;
+  }
+
+  .lineAlign{
+    margin-left: 88px;
+    margin-right: -226px;
+  }
+
+  .grid .item {
+    display: block;
+    float: left;
+    padding: 2px;
+    width: 33%;
+    opacity: 1;
+  }
+  .grid .item a,.grid .item img {
+    outline: none;
+    border: none;
+    display: block;
+    max-width: 100%;
+  }
+  .grid.effect-2 .item.animate {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp 0.65s ease forwards;
+    animation: moveUp 0.65s ease forwards;
+  }
