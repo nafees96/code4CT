@@ -1,6 +1,21 @@
 body {
   font-family: 'Poppins', sans-serif; }
 
+.section23 {
+  display: grid;
+  margin-top: 6%;
+  margin-left: 14%; }
+
+.sub-section23 {
+  display: flex; }
+
+.section24 {
+  display: grid;
+  margin-top: 6%; }
+
+.sub-section24 {
+  display: flex; }
+
 .container4 {
   display: grid;
   grid-template-columns: auto auto;
@@ -708,10 +723,19 @@ footer {
   display: block;
   max-width: 100%; }
 
-.grid.effect-2 .item.animate {
-  -webkit-transform: translateY(200px);
-  transform: translateY(200px);
-  -webkit-animation: moveUp 0.65s ease forwards;
-  animation: moveUp 0.65s ease forwards; }
+.grid.effect-2 .item img {
+  transition: transform 0.3s ease-in-out; }
+.grid.effect-2 .item img:hover {
+  transform: scale(1.2); }
+
+.sub-section23 img {
+  width: 74%; }
+
+.sub-section24 img {
+  width: 89%;
+  height: 95%; }
+
+.count {
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */

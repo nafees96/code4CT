@@ -21,3 +21,31 @@ $(window).scroll(function() {
     }
 });
 $(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false})})
+
+
+
+//////////////////////////////counter//////////////////////////////////
+$(document).ready(function() {
+
+  var counters = $(".count");
+  var countersQuantity = counters.length;
+  var counter = [];
+
+  for (i = 0; i < countersQuantity; i++) {
+    counter[i] = parseInt(counters[i].innerHTML);
+  }
+
+  var count = function(start, value, id) {
+    var localStart = start;
+    setInterval(function() {
+      if (localStart < value) {
+        localStart++;
+        counters[id].innerHTML = localStart;
+      }
+    }, 9);
+  }
+
+  for (j = 0; j < countersQuantity; j++) {
+    count(0, counter[j], j);
+  }
+});

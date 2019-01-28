@@ -897,9 +897,28 @@ color: #666666;
     display: block;
     max-width: 100%;
   }
-  .grid.effect-2 .item.animate {
-    -webkit-transform: translateY(200px);
-    transform: translateY(200px);
-    -webkit-animation: moveUp 0.65s ease forwards;
-    animation: moveUp 0.65s ease forwards;
+  .grid.effect-2 {
+    .item img{
+      transition: transform 0.3s ease-in-out
+     
+    }
+    .item img:hover{
+      transform: scale(1.2);
+    }
+  }
+
+  ///////////////////////////////About page/////////////////////////////////////////////////
+  .sub-section23{
+    img{
+      width: 74%;
+    }
+  }
+  .sub-section24{
+    img{
+      width: 89%;
+      height: 95%;
+    }
+  }
+  .count{
+    color:white;
   }

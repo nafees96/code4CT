@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,UAAU;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,EAAE;EACd,WAAW,EAAE,GAAG;;AAEpB,cAAc;EACV,OAAO,EAAE,IAAI;;AAGjB,UAAU;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,EAAE;;AAGlB,cAAc;EACV,OAAO,EAAE,IAAI",
+"sources": ["../../sass/partials/layout.scss"],
 "names": [],
 "file": "layout.css"
 }
