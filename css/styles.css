@@ -243,7 +243,9 @@
         cursor: pointer; }
       .container2 .first-text {
         display: inline-block;
-        grid-template-columns: auto auto; }
+        /* grid-template-columns: auto auto;  */
+        width: 347px;
+        margin-left: -175px;}
         .container2 .first-text p {
           font-size: 14px; }
       .container2 .first-image img {
@@ -263,12 +265,12 @@
         border-top: 3px solid; }
     
     .container3 {
+      margin-top: 903px;
       background-color: black;
       height: 14%;
       display: grid;
       grid-gap: 2px;
       grid-template-columns: auto auto auto auto;
-      margin-top: 50px;
       padding: 100px 100px; }
       .container3 img {
         width: 50px; }
@@ -1025,7 +1027,7 @@ body, html {
       font-size: 14px; }
   .container2 .first-image img {
     width: 45%;
-    padding: 5px;
+    padding: 100px;
     height: 45%;
     grid-gap: 300px; }
   .container2 .border {
