@@ -1009,6 +1009,7 @@ body, html {
   background-color: white;
   margin: 80px;
   margin-left: 180px; }
+  
   .container2 .button-3 {
     margin-top: 30px;
     outline: 0;
@@ -1020,21 +1021,27 @@ body, html {
     background-color: #e38f84;
     text-align: center;
     cursor: pointer; }
+
   .container2 .first-text {
     display: inline-block;
-    grid-template-columns: auto auto; }
+    /* grid-template-columns: auto auto; */
+   }
+
     .container2 .first-text p {
       font-size: 14px; }
+
   .container2 .first-image img {
-    width: 45%;
+    width: 360px;
     padding: 100px;
-    height: 45%;
+    height: 640px;
     grid-gap: 300px; }
+
   .container2 .border {
     width: 10%;
     color: #e38f84;
     border-top: 3px solid;
     opacity: 30%; }
+
   .container2 .border2 {
     display: grid;
     width: 30%;
